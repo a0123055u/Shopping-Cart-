@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/web/index.html</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/web/css/background.jpg</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/src/java/servlets/PaymentServlet.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/src/java/service/ProductService.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/src/java/service/CartService.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/web/js/cartController.js</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/src/java/service/StoreTotal.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/src/java/servlets/LoginServlet.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/src/java/service/ValidateSession.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/src/java/service/LoginService.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/src/java/servlets/SignUpServlet.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/web/css/main.css</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/src/java/servlets/ProductServlet.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/web/js/paymentController.js</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/web/payment.html</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/web/js/loginController.js</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/web/Shopping.html</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/ServletWebApplication/src/java/service/SignUpService.java</file>
+        </group>
+    </open-files>
+</project-private>

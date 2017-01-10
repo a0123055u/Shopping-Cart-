@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="cart">
+    <head>
+        <title>TOO Shopping Cart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+            <link href="css/main.css" rel="stylesheet" media="screen">
+  
+    </head>
+    <body ng-controller="cartController" >
+        <div><h2 class="heading">TOO Shopping Cart</h2></div>
+        <script src="lib/jquery-2.1.3.js"></script>     
+      
+            <script src="lib/angular.js"></script>
+            <script src="js/cartController.js"></script>
+             <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+            
+         
+        <form  class="canvasProduct"> 
+            <div class="divProduct">
+             <table class="tableProduct">
+                    <tr >
+                        <th>ITEM</th>
+                      <th>PRICE</th>
+                       <th>QTY</th>
+                       <th>SUB TOTAL</th>
+                       <th ><img src="css/cart.png" width="30"> {{cartQuantity}}</th>
+                    </tr>
+                    <tbody ng-init="total=0" ng-init="prod=[]">
+                    <tr ng-repeat="product in products track by $index" >
+                        <td class="col-sm-1"><h5>{{product.name}}</h5></td>
+                        <td class="col-sm-1"><h5>{{product.price|number}}</h5></td>
+                       <td><select class="select-mini" ng-model="Quantity" >
+                                    <option  value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                 </select>
+                       </td>
+                      
+                       <td><label  ng-model="product.action" ng-show="product.action" />{{Quantity*(product.price)|number}}</td>
+                       <td><div> <input  type="button" class="btn btn-info" id="add" ng-disabled="product.action" ng-click="addTotal(Quantity,(product.price),product)" value=" + " > </div></td>
+                       <td><div> <input type="button" class="btn btn-danger" id="Clear" ng-disabled="!(product.action)" value="-" ng-click="clearSelection(Quantity*(product.price),product,$index)"></div></td>
+                       
+                    </tr>
+                     <tr >
+                        <td></td>
+                        <td> </td>
+                        <td>Total :{{total}}</td> 
+                        <td><div><input type="button" class="btn btn-info" id="checkOut" ng-model="check" ng-click="checkOut(prod)" value="Check Out"></div></td>
+                      </tr>
+                      </tbody>
+                  </table> 
+            <label ng-model="netTotal"  >{{netTotal}}</label>
+            </div>
+         
+<!--          	<ul><li ng-repeat= '(key,value) in products'>{{key}}</li>
+			
+                <li >{{value}}</li>
+			</ul>-->
+<!--        <label for="Quantity"> Quantity</label><select name="Quantity">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>-->
+<!--             </select></div>   -->
+        
+       
+             </form>
+       
+    </body>
+</html>
